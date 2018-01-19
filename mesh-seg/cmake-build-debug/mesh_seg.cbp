@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mesh_seg"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mesh_seg">
+				<Option output="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/mesh_seg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 mesh_seg"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mesh_seg/fast">
+				<Option output="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/mesh_seg" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 mesh_seg/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/exspectate/Desktop/mesh-seg/mesh-seg/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/3dOperator.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/3dOperator.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/DialogLabel.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/Point3d.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/Point3d.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/Util.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/Util.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame1.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame1.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame2.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame2.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame3.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_Frame3.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_part.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/bsp_part.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/csy_ALLPART.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/csy_ALLPART.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/csy_Pitching.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/csy_Pitching.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/dijkstra.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/dijkstra.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/gy_fitting.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/gy_fitting.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/gy_show.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/gy_show.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/lty_STL.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/lty_STL.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/main.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/zc_VRudder.cpp">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/zc_VRudder.h">
+			<Option target="mesh_seg"/>
+		</Unit>
+		<Unit filename="/Users/exspectate/Desktop/mesh-seg/mesh-seg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
