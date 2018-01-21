@@ -189,7 +189,7 @@ void bsp_Frame2::findfeatureVerts(Mesh & mesh)
 //不存入当前部件featureLines中
 void bsp_Frame2::findfeatureLines(Mesh & mesh)
 {
-	this->findLR(mesh);
-	this->initUpDown(mesh);
+	//this->findLR(mesh);
+	//this->initUpDown(mesh);
 
 };

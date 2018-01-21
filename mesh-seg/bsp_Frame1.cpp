@@ -236,9 +236,9 @@ void bsp_Frame1::initUpDown(Mesh & mesh)
 //不存入当前部件featureLines中
 void bsp_Frame1::findfeatureLines(Mesh & mesh)
 {
-	this->findLR(mesh);
-	this->findCurve(mesh);
-	this->initUpDown(mesh);
+	//this->findLR(mesh);
+	//this->findCurve(mesh);
+	//this->initUpDown(mesh);
 };
 
 void bsp_Frame1::findfeatureVerts(Mesh & mesh)

@@ -42,11 +42,23 @@ void ALLPART::initPartDATA(Mesh & mesh)
 	this->f2->initSelectData(mesh,mesh.kind_color[2]);
 	this->f3->initSelectData(mesh,mesh.kind_color[3]);
 
-	this->f3->findRidgeLine(mesh);
-	this->f3->findfeatureVerts(mesh);
+	this->f3->findRidgeLine(mesh);		//查找突变线，初始化左右
+	this->f3->findfeatureVerts(mesh);	//初始化特征点
 
-	this->f2->findfeatureLines(mesh);
-	this->f1->findfeatureLines(mesh);
+
+	this->f2->findLR(mesh);
+
+	this->f3->initUpDirection();		//初始化上方向
+	this->f3->initUpDown(mesh);			//将突变线分割为两部分
+
+
+	this->f2->initUpDown(mesh);
+	this->f1->findLR(mesh);
+	this->f1->findCurve(mesh);
+	this->f1->initUpDown(mesh);
+
+	//this->f2->findfeatureLines(mesh);
+	//this->f1->findfeatureLines(mesh);
 
 	this->f3->findfeatureLines(mesh);
 	this->f3->writeFeatureLinesToFile("DataFiles/Frame/");

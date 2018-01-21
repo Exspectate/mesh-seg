@@ -38,7 +38,7 @@ public:
 	void findRidgeLine(Mesh & mesh);
 
 	int Up_Down(Point3d p);
-
+	void initUpDirection();
 	void initUpDown(Mesh& mesh);
 
 
